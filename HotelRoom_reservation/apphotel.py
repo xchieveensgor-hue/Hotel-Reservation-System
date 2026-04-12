@@ -7,7 +7,7 @@ st.markdown("""
 <style>
 .stApp {color: black !important;}
 .stApp { 
-    background-image: url(https://github.com/xchieveensgor-hue/Hotel-Reservation-System/blob/main/HotelRoom_reservation/hotel_bg.jpg");
+    background-image: url("https://raw.githubusercontent.com/xchieveensgor-hue/Hotel-Reservation-System/main/HotelRoom_reservation/hotel_bg.jpg");
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
