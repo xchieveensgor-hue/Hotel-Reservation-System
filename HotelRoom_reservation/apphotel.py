@@ -13,6 +13,7 @@ st.markdown("""
     font-family: Arial, sans-serif;
 }
 label { color: black !important; font-weight: bold; }
+.stRadio > label { color: black !important; }
 .stInfo {background-color: #e3f2fd !important; color: #01176e !important;}
 </style>
 """, unsafe_allow_html=True)
