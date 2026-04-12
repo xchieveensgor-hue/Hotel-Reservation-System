@@ -72,7 +72,7 @@ if st.button("Reserve Room", type="primary"):
             st.success("Room reserved successfully!")
             
             st.markdown(f"""
-            <div style='background: #f0f8ff; padding: 20px; border-radius: 10px; border-left: 5px solid #4CAF50;'>
+            <div style='background: #f0f8ff; padding: 20px; border-radius: 10px; border-left: 5px solid #082366;'>
             <h3>Reservation Confirmed</h3>
             <p><b>Guest Name:</b> {guest_name}</p>
             <p><b>Phone:</b> {phone}</p>
