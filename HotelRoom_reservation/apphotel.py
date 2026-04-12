@@ -2,16 +2,17 @@ import streamlit as st
 from datetime import date, timedelta, datetime
 import rooms
 
-st.set_page_config(page_title="Hotel Reservation", layout="centered")
 st.markdown("""
-<style
-.stApp {color: black !important;}
+<style>
 .stApp { 
     background-image: url("https://raw.githubusercontent.com/xchieveensgor-hue/Hotel-Reservation-System/main/HotelRoom_reservation/hotel_bg.jpg");
-    background-size: cover; 
+    background-size: cover !important; 
     background-position: center; 
-    background-attachment: fixed; 
+    background-attachment: fixed;
+    color: black !important;
+    font-family: Arial, sans-serif;
 }
+.stInfo {background-color: #e3f2fd !important; color: #1976d2 !important;}
 </style>
 """, unsafe_allow_html=True)
 
