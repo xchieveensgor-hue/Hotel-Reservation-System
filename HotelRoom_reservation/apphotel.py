@@ -36,8 +36,7 @@ with col5:
 
 check_out = st.date_input("Check-out Date", value=date.today() + timedelta(days=1))
 colt1, colt2 = st.columns(2)
-checkin_time = st.time_input("Check-in Time", value=datetime.strptime("1:00 PM", "%I:%M %p").time())
-checkout_time = st.time_input("Check-out Time", value=datetime.strptime("12:00 PM", "%I:%M %p").time())
+
 
 st.markdown("---")
 
@@ -79,8 +78,6 @@ if st.button("Reserve Room", type="primary"):
             <p><b>Phone:</b> {phone}</p>
             <p><b>Gmail:</b> {gmail}</p>
             <p><b>Room:</b> {details}</p>
-            <p><b>Check-in:</b> {check_in} {checkin_time.strftime('%I:%M %p')}</p>
-            <p><b>Check-out:</b> {check_out} {checkout_time.strftime('%I:%M %p')}</p>
             <p><b>Nights:</b> {nights}</p>
             <p><b>Total:</b> <span style='color: green; font-size: 18px;'>RM{total:.2f}</span></p>
             </div>
