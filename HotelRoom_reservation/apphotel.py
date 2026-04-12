@@ -5,6 +5,7 @@ import rooms
 st.set_page_config(page_title="Hotel Reservation", layout="centered")
 st.markdown("""
 <style>
+.stApp {color: black !important;}
 .stApp { 
     background-image: url("https://raw.githubusercontent.com/xchieveensgor-hue/Hotel-Room-Reservation-System/main/hotel_bg.jpg");
     background-size: cover; 
