@@ -12,7 +12,7 @@ st.markdown("""
     color: black !important;
     font-family: Arial, sans-serif;
 }
-.stInfo {background-color: #e3f2fd !important; color: #1976d2 !important;}
+.stInfo {background-color: #e3f2fd !important; color: #01176e !important;}
 </style>
 """, unsafe_allow_html=True)
 
