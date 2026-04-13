@@ -14,8 +14,8 @@ st.markdown("""
 }
 label { color: black !important; font-weight: bold; }
 .stRadio > label { color: black !important; }
-.stSuccess { background-color: #4caf50 !important; color: white !important; }
-.stInfo { background-color: #2196f3 !important; color: white !important; }
+.stSuccess { background-color: #0c4d0f !important; color: white !important; }
+.stInfo { background-color: #041f36 !important; color: white !important; }
 </style>
 """, unsafe_allow_html=True)
 
